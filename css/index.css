@@ -1,7 +1,49 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
 html {
     /*<a href='https://br.freepik.com/fotos-vetores-gratis/musica'>Música foto criado por master1305 - br.freepik.com</a>*/
     background-image: url("../imagens/fundo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family:"Minecrafter.Reg";
+    src: url("../fontes/Minecrafter.Reg.ttf");
+}
+
+header {
+    margin-top: 5.5%;
+}
+
+header h1 {
+    font-family:"Minecrafter.Reg";
+    font-size: 5em;
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+
+header h3 {
+    font-family:"Minecrafter.Reg";
+    font-size: 2.5em;
+    margin-left: 4%;
+    color: #f32170;
+    text-shadow: 1px 1px white;
+}
+
+header a {
+    text-decoration: none;
+    background: linear-gradient(to right, #f32170,#ff6b08);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+header a:hover {
+    background: linear-gradient(to right, #ff6b08, #f32170);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
