@@ -4,9 +4,67 @@
 }
 
 html {
+    overflow-x: hidden;
+}
+
+body {
     background-image: url("../imagens/fundo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+@font-face {
+    font-family: "FearlessQueen-7BveB";
+    src: url("../fontes/FearlessQueen-7BveB.otf");
+}
 
+.titulo {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px rgb(235, 212, 11);
+}
+
+.titulo:hover {
+    color: rgb(235, 212, 11);
+    text-shadow: 2px 2px white;
+}
+
+main h1 {
+    font-family: "FearlessQueen-7BveB";
+    position: relative;
+    top: 40px;
+    left: 780px;
+    font-size: 12em;
+}
+
+main h3 {
+    font-family: "FearlessQueen-7BveB";
+    position: relative;
+    top: 10px;
+    left: 720px;
+    font-size: 4em;
+    color: white;
+    text-shadow: 1px 1px rgb(235, 212, 11);
+}
+
+main h3 span {
+    color: rgb(235, 212, 11);
+    text-shadow: 1px 1px white;
+}
+
+.botao {
+    position: relative;
+    top: 30px;
+    left: 720px;
+    width: 22%;
+    border-color: rgb(235, 212, 11);
+    color: aliceblue;
+    font-family: "FearlessQueen-7BveB";
+    font-size: 2em;
+    border-radius: 25px;
+}
+
+.botao:hover {
+    color: rgb(235, 212, 11);
+    border-color: white;
+}
