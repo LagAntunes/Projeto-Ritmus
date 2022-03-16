@@ -41,7 +41,7 @@ main h3 {
     font-family: "FearlessQueen-7BveB";
     position: relative;
     top: 10px;
-    left: 720px;
+    left: 710px;
     font-size: 4em;
     color: white;
     text-shadow: 1px 1px rgb(235, 212, 11);
@@ -55,7 +55,7 @@ main h3 span {
 .botao {
     position: relative;
     top: 30px;
-    left: 720px;
+    left: 710px;
     width: 22%;
     border-color: rgb(235, 212, 11);
     color: aliceblue;
@@ -67,4 +67,10 @@ main h3 span {
 .botao:hover {
     color: rgb(235, 212, 11);
     border-color: white;
+}
+
+.planos {
+    background-color: black;
+    color: white;
+    margin-top: 22%;
 }
