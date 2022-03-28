@@ -7,10 +7,11 @@ html {
     overflow-x: hidden;
 }
 
-body {
+main {
     background-image: url("../imagens/fundo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
 }
 
 @font-face {
@@ -41,7 +42,7 @@ main h3 {
     font-family: "FearlessQueen-7BveB";
     position: relative;
     top: 10px;
-    left: 710px;
+    left: 280px;
     font-size: 4em;
     color: white;
     text-shadow: 1px 1px rgb(235, 212, 11);
@@ -52,16 +53,21 @@ main h3 span {
     text-shadow: 1px 1px white;
 }
 
+.tituloWidht {
+    width: 35%;
+}
+
 .botao {
     position: relative;
-    top: 30px;
-    left: 710px;
+    top: 10px;
+    left: 820px;
     width: 22%;
     border-color: rgb(235, 212, 11);
     color: aliceblue;
     font-family: "FearlessQueen-7BveB";
     font-size: 2em;
     border-radius: 25px;
+    margin-bottom: 15%;
 }
 
 .botao:hover {
@@ -72,5 +78,6 @@ main h3 span {
 .planos {
     background-color: black;
     color: white;
-    margin-top: 22%;
+    height: 100%;
+    padding: 2%;
 }
