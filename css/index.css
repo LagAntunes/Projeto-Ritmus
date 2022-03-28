@@ -81,3 +81,72 @@ main h3 span {
     height: 100%;
     padding: 2%;
 }
+
+.displayPlano {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    display: flex;
+}
+
+.divPlano {
+    border: 1px solid gold;
+    width: 27%;
+    padding: 2%;
+    height: 350px;
+}
+
+.tituloPlano {
+    font-family: "FearlessQueen-7BveB";
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.divPlano h2 span {
+    color: rgb(145, 131, 9);
+    text-shadow: 1px 1px white;
+}
+
+.valorPlano1 {
+    margin-top: 20px;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(145, 131, 9);
+    text-shadow: 1px 1px white;
+    position: relative;
+    top: 70px;
+}
+
+.valorPlano2 {
+    margin-top: 20px;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(145, 131, 9);
+    text-shadow: 1px 1px white;
+    position: relative;
+    top: 25px;
+}
+
+.valorPlano3 {
+    margin-top: 20px;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(145, 131, 9);
+    text-shadow: 1px 1px white;
+    position: relative;
+    top: 5px;
+}
+
+.valorPlano1 span {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.valorPlano2 span {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.valorPlano3 span {
+    color: white;
+    text-shadow: 1px 1px black;
+}
