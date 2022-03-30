@@ -150,3 +150,21 @@ main h3 span {
     color: white;
     text-shadow: 1px 1px black;
 }
+
+.sectionFormulário {
+    background-color: white;
+    padding: 2%;
+    display: flex;
+}
+
+.divFormulario {
+    border: 1px solid red;
+    width: 45%;
+    padding: 2%;
+}
+
+.tituloFormulario {
+    font-family: "FearlessQueen-7BveB";
+    font-size: 3em;
+    text-shadow: 1px 1px goldenrod;
+}
