@@ -61,18 +61,20 @@
             <h1 class="tituloFormulario">Gostou dos planos? Entre em contato para criar sua conta</h1>
 
             <form>
-                <label>Informe seu nome:</label><br>
-                <input type="text"><br>
-                <label>Informe seu email:</label><br>
-                <input type="mail"><br>
-                <label>Qual plano te conquistou?</label><br>
-                <select>
-                    <option>Plano Gratuito</option>
+                <label for="nome">Informe seu nome:</label><br>
+                <input type="text" placeholder="Digite seu nome aqui..." id="nome" required><br>
+
+                <label for="email">Informe seu email:</label><br>
+                <input type="mail" placeholder="Digite seu email aqui..." id="email" required><br>
+
+                <label for="opcoes">Qual plano te conquistou?</label><br>
+                <select id="opcoes">
+                    <option>Plano Comum</option>
                     <option>Plano Premium</option>
                     <option>Plano Família</option>
                 </select><br>
 
-                <button>Enviar</button>
+                <button class="btn btn-outline-warning">Enviar</button>
             </form>
         </div>
     </section>
