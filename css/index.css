@@ -194,7 +194,48 @@ main h3 span {
 
 footer {
     margin-top: 7%;
-    padding: 2%;
+    padding: 4%;
     background-color: black;
     color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.divTituloFooter {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid red;
+}
+
+.tituloFooter {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px rgb(235, 212, 11);
+    font-family: "FearlessQueen-7BveB";
+    font-size: 3em;
+}
+
+.tituloFooter:hover {
+    color: rgb(235, 212, 11);
+    text-shadow: 2px 2px white;
+}
+
+.divTituloFooter h2 {
+    color: rgb(145, 131, 9);
+    text-shadow: 1px 1px white;
+    font-family: "FearlessQueen-7BveB";
+    font-size: 3em;
+}
+
+.divTituloFooter span {
+    color: white;
+    text-shadow: 1px 1px rgb(145, 131, 9);
+}
+
+.divIcones {
+    display: flex;
+    width: 50%;
+    border: 1px solid blue;
 }
