@@ -23,7 +23,7 @@ botaoForm.onclick = function checaForm() {
     }
     function alertTimer() {
         if(nomeForm.value != "" && emailForm.value != "") {
-            alert("Logo entramos em contato. Muito obrigado por escolher a Ritmus.");
+            alert("Logo entraremos em contato. Muito obrigado por escolher a Ritmus.");
         }
     }
     setTimeout(alertTimer, 1000);
