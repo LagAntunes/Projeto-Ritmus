@@ -206,7 +206,6 @@ footer {
     display: flex;
     flex-direction: column;
     width: 50%;
-    border: 1px solid red;
 }
 
 .tituloFooter {
@@ -236,6 +235,17 @@ footer {
 
 .divIcones {
     display: flex;
-    width: 50%;
-    border: 1px solid blue;
+    width: 20%;
+}
+
+.divIcones a {
+    color: rgb(145, 131, 9);
+    text-shadow: 1px 1px white;
+    text-decoration: none;
+    font-size: 3em;
+}
+
+.divIcones a:hover {
+    color: white;
+    text-shadow: 1px 1px rgb(145, 131, 9);
 }
